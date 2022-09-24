@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F71BCB7E28DEFD6B00AD9574 /* swift_spliteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71BCB7D28DEFD6B00AD9574 /* swift_spliteApp.swift */; };
+		F71BCB8028DEFD6B00AD9574 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71BCB7F28DEFD6B00AD9574 /* ContentView.swift */; };
+		F71BCB8228DEFD6C00AD9574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71BCB8128DEFD6C00AD9574 /* Assets.xcassets */; };
+		F71BCB8528DEFD6C00AD9574 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71BCB8428DEFD6C00AD9574 /* Preview Assets.xcassets */; };
+		F71BCB8F28DEFD6C00AD9574 /* swift_spliteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71BCB8E28DEFD6C00AD9574 /* swift_spliteTests.swift */; };
+		F71BCB9928DEFD6C00AD9574 /* swift_spliteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71BCB9828DEFD6C00AD9574 /* swift_spliteUITests.swift */; };
+		F71BCB9B28DEFD6C00AD9574 /* swift_spliteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71BCB9A28DEFD6C00AD9574 /* swift_spliteUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F71BCB8B28DEFD6C00AD9574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F71BCB7228DEFD6B00AD9574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F71BCB7928DEFD6B00AD9574;
+			remoteInfo = "swift-splite";
+		};
+		F71BCB9528DEFD6C00AD9574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F71BCB7228DEFD6B00AD9574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F71BCB7928DEFD6B00AD9574;
+			remoteInfo = "swift-splite";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F71BCB7A28DEFD6B00AD9574 /* swift-splite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-splite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71BCB7D28DEFD6B00AD9574 /* swift_spliteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_spliteApp.swift; sourceTree = "<group>"; };
+		F71BCB7F28DEFD6B00AD9574 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F71BCB8128DEFD6C00AD9574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F71BCB8428DEFD6C00AD9574 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F71BCB8A28DEFD6C00AD9574 /* swift-spliteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-spliteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71BCB8E28DEFD6C00AD9574 /* swift_spliteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_spliteTests.swift; sourceTree = "<group>"; };
+		F71BCB9428DEFD6C00AD9574 /* swift-spliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-spliteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71BCB9828DEFD6C00AD9574 /* swift_spliteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_spliteUITests.swift; sourceTree = "<group>"; };
+		F71BCB9A28DEFD6C00AD9574 /* swift_spliteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_spliteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F71BCB7728DEFD6B00AD9574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71BCB8728DEFD6C00AD9574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71BCB9128DEFD6C00AD9574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F71BCB7128DEFD6B00AD9574 = {
+			isa = PBXGroup;
+			children = (
+				F71BCB7C28DEFD6B00AD9574 /* swift-splite */,
+				F71BCB8D28DEFD6C00AD9574 /* swift-spliteTests */,
+				F71BCB9728DEFD6C00AD9574 /* swift-spliteUITests */,
+				F71BCB7B28DEFD6B00AD9574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F71BCB7B28DEFD6B00AD9574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F71BCB7A28DEFD6B00AD9574 /* swift-splite.app */,
+				F71BCB8A28DEFD6C00AD9574 /* swift-spliteTests.xctest */,
+				F71BCB9428DEFD6C00AD9574 /* swift-spliteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F71BCB7C28DEFD6B00AD9574 /* swift-splite */ = {
+			isa = PBXGroup;
+			children = (
+				F71BCB7D28DEFD6B00AD9574 /* swift_spliteApp.swift */,
+				F71BCB7F28DEFD6B00AD9574 /* ContentView.swift */,
+				F71BCB8128DEFD6C00AD9574 /* Assets.xcassets */,
+				F71BCB8328DEFD6C00AD9574 /* Preview Content */,
+			);
+			path = "swift-splite";
+			sourceTree = "<group>";
+		};
+		F71BCB8328DEFD6C00AD9574 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F71BCB8428DEFD6C00AD9574 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F71BCB8D28DEFD6C00AD9574 /* swift-spliteTests */ = {
+			isa = PBXGroup;
+			children = (
+				F71BCB8E28DEFD6C00AD9574 /* swift_spliteTests.swift */,
+			);
+			path = "swift-spliteTests";
+			sourceTree = "<group>";
+		};
+		F71BCB9728DEFD6C00AD9574 /* swift-spliteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F71BCB9828DEFD6C00AD9574 /* swift_spliteUITests.swift */,
+				F71BCB9A28DEFD6C00AD9574 /* swift_spliteUITestsLaunchTests.swift */,
+			);
+			path = "swift-spliteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F71BCB7928DEFD6B00AD9574 /* swift-splite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71BCB9E28DEFD6C00AD9574 /* Build configuration list for PBXNativeTarget "swift-splite" */;
+			buildPhases = (
+				F71BCB7628DEFD6B00AD9574 /* Sources */,
+				F71BCB7728DEFD6B00AD9574 /* Frameworks */,
+				F71BCB7828DEFD6B00AD9574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-splite";
+			productName = "swift-splite";
+			productReference = F71BCB7A28DEFD6B00AD9574 /* swift-splite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F71BCB8928DEFD6C00AD9574 /* swift-spliteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71BCBA128DEFD6C00AD9574 /* Build configuration list for PBXNativeTarget "swift-spliteTests" */;
+			buildPhases = (
+				F71BCB8628DEFD6C00AD9574 /* Sources */,
+				F71BCB8728DEFD6C00AD9574 /* Frameworks */,
+				F71BCB8828DEFD6C00AD9574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F71BCB8C28DEFD6C00AD9574 /* PBXTargetDependency */,
+			);
+			name = "swift-spliteTests";
+			productName = "swift-spliteTests";
+			productReference = F71BCB8A28DEFD6C00AD9574 /* swift-spliteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F71BCB9328DEFD6C00AD9574 /* swift-spliteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71BCBA428DEFD6C00AD9574 /* Build configuration list for PBXNativeTarget "swift-spliteUITests" */;
+			buildPhases = (
+				F71BCB9028DEFD6C00AD9574 /* Sources */,
+				F71BCB9128DEFD6C00AD9574 /* Frameworks */,
+				F71BCB9228DEFD6C00AD9574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F71BCB9628DEFD6C00AD9574 /* PBXTargetDependency */,
+			);
+			name = "swift-spliteUITests";
+			productName = "swift-spliteUITests";
+			productReference = F71BCB9428DEFD6C00AD9574 /* swift-spliteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F71BCB7228DEFD6B00AD9574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F71BCB7928DEFD6B00AD9574 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					F71BCB8928DEFD6C00AD9574 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F71BCB7928DEFD6B00AD9574;
+					};
+					F71BCB9328DEFD6C00AD9574 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F71BCB7928DEFD6B00AD9574;
+					};
+				};
+			};
+			buildConfigurationList = F71BCB7528DEFD6B00AD9574 /* Build configuration list for PBXProject "swift-splite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F71BCB7128DEFD6B00AD9574;
+			productRefGroup = F71BCB7B28DEFD6B00AD9574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F71BCB7928DEFD6B00AD9574 /* swift-splite */,
+				F71BCB8928DEFD6C00AD9574 /* swift-spliteTests */,
+				F71BCB9328DEFD6C00AD9574 /* swift-spliteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F71BCB7828DEFD6B00AD9574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71BCB8528DEFD6C00AD9574 /* Preview Assets.xcassets in Resources */,
+				F71BCB8228DEFD6C00AD9574 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71BCB8828DEFD6C00AD9574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71BCB9228DEFD6C00AD9574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F71BCB7628DEFD6B00AD9574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71BCB8028DEFD6B00AD9574 /* ContentView.swift in Sources */,
+				F71BCB7E28DEFD6B00AD9574 /* swift_spliteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71BCB8628DEFD6C00AD9574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71BCB8F28DEFD6C00AD9574 /* swift_spliteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71BCB9028DEFD6C00AD9574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71BCB9928DEFD6C00AD9574 /* swift_spliteUITests.swift in Sources */,
+				F71BCB9B28DEFD6C00AD9574 /* swift_spliteUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F71BCB8C28DEFD6C00AD9574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F71BCB7928DEFD6B00AD9574 /* swift-splite */;
+			targetProxy = F71BCB8B28DEFD6C00AD9574 /* PBXContainerItemProxy */;
+		};
+		F71BCB9628DEFD6C00AD9574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F71BCB7928DEFD6B00AD9574 /* swift-splite */;
+			targetProxy = F71BCB9528DEFD6C00AD9574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F71BCB9C28DEFD6C00AD9574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F71BCB9D28DEFD6C00AD9574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F71BCB9F28DEFD6C00AD9574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swift-splite/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "justin.swift-splite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F71BCBA028DEFD6C00AD9574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swift-splite/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "justin.swift-splite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F71BCBA228DEFD6C00AD9574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "justin.swift-spliteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-splite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift-splite";
+			};
+			name = Debug;
+		};
+		F71BCBA328DEFD6C00AD9574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "justin.swift-spliteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-splite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift-splite";
+			};
+			name = Release;
+		};
+		F71BCBA528DEFD6C00AD9574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "justin.swift-spliteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swift-splite";
+			};
+			name = Debug;
+		};
+		F71BCBA628DEFD6C00AD9574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "justin.swift-spliteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swift-splite";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F71BCB7528DEFD6B00AD9574 /* Build configuration list for PBXProject "swift-splite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71BCB9C28DEFD6C00AD9574 /* Debug */,
+				F71BCB9D28DEFD6C00AD9574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71BCB9E28DEFD6C00AD9574 /* Build configuration list for PBXNativeTarget "swift-splite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71BCB9F28DEFD6C00AD9574 /* Debug */,
+				F71BCBA028DEFD6C00AD9574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71BCBA128DEFD6C00AD9574 /* Build configuration list for PBXNativeTarget "swift-spliteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71BCBA228DEFD6C00AD9574 /* Debug */,
+				F71BCBA328DEFD6C00AD9574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71BCBA428DEFD6C00AD9574 /* Build configuration list for PBXNativeTarget "swift-spliteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71BCBA528DEFD6C00AD9574 /* Debug */,
+				F71BCBA628DEFD6C00AD9574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F71BCB7228DEFD6B00AD9574 /* Project object */;
+}
